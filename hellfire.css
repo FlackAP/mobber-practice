@@ -310,22 +310,25 @@ header div {
 	-webkit-font-smoothing:antialiased;
 }
 
-.upcoming {
+
+table {
 	width:645px;
 	font-size:14px;
-	vertical-align:middle;
 }
 
-.upcoming-event {
-	text-align:left;
+.cell-1 {
+	font-size: 16px;
 }
 
-.upcoming-needed {
-	text-align:right;
+tr {
+	border-collapse:collapse; }
+	
+table td, table th { 
+	border-bottom:1px  black;padding:5px
 }
 
-.upcoming.date {
-	text-align:right;
+tr {
+	border-bottom: 1px black;
 }
 
 /*FOOTER STARTS HERE*/
