@@ -163,7 +163,7 @@ header div {
 }
 
 .tweet {
-	background-color:#C7CDD0;
+	background-color:rgb(204, 201, 192);
 	position:absolute;
 	display:inline-block;
 	width:580px;
@@ -183,7 +183,7 @@ header div {
 }
 
 #activeLG {
-	background-color:#C7CDD0;
+	background-color:rgb(204, 201, 192);
 	height:152px;
 	width: 138px;
 	text-align:center;
@@ -197,7 +197,7 @@ header div {
 }
 
 #neededLG {
-	background-color:#C7CDD0;
+	background-color:rgb(204, 201, 192);
 	height:152px;
 	width: 138px;
 	text-align: center;
@@ -212,7 +212,7 @@ header div {
 
 #activeSM {
 	font-size:16px;
-	background-color:#828374;
+	background-color:rgb(162, 158, 148);
 	width:138px;
 	height:30px;
 	position:absolute;
@@ -225,7 +225,7 @@ header div {
 
 #neededSM {
 	font-size:16px;
-	background-color:#828374;
+	background-color:rgb(162, 158, 148);
 	width:138px;
 	height:30px;
 	position:absolute;
@@ -284,12 +284,19 @@ header div {
 	background:white;
 	margin-top:60px;
 	clear:both;
+	box-shadow: 0 -2px 5px #d1d4d6;;
 }
+
 
 .other .wrapper {
 	padding: 30px;
-	width:960px;
+	width:980px;
 }
+
+.other .inline {
+	margin-left:18px;
+}
+
 
 .time-remaining {
 	float:right;
@@ -310,25 +317,127 @@ header div {
 	-webkit-font-smoothing:antialiased;
 }
 
+.other h2 {
+	margin-top: -15;
+	margin-bottom: 3;
+}
+
 
 table {
-	width:645px;
-	font-size:14px;
+	width: 645px;
+	font-size: 14px;
+	height: 185px;
+	color: rgb(121, 116, 116);
+	float: left;
+	border-collapse: collapse;
+	margin-top: -10;
 }
 
 .cell-1 {
 	font-size: 16px;
+	color:black;
 }
-
-tr {
-	border-collapse:collapse; }
 	
-table td, table th { 
-	border-bottom:1px  black;padding:5px
+table tr{ 
+	border-bottom:1px solid rgb(204, 203, 203);
 }
 
-tr {
-	border-bottom: 1px black;
+table td {
+	padding-top: 21px;
+	padding-bottom: 5px;
+	vertical-align: bottom;
+	font-size: 13;
+}
+
+tr:last-child {
+	border-bottom:1px solid white;
+}
+
+.instruction {
+	height: 230;
+	width: 330;
+	background: rgb(204, 201, 192);
+	display: inline-block;
+	margin-left: 5px;
+	position: relative;
+	top: -28;
+}
+
+.instruction span {
+	font-size: 28px;
+	color: white;
+	text-align: center;
+	padding-top: 16px;
+	margin-top: 38px;
+	position: absolute;
+	top: -36;
+	left: 37;
+	text-shadow: -2px 2px 1px rgb(133, 129, 129);
+}
+
+.circle-button {
+	height: 35px;
+	width: 42px;
+	border-radius: 62px;
+	border: 1px solid rgb(158, 152, 152);
+	box-shadow: inset 3px 18px 6px -16px white, 1px 5px 8px -3px rgb(105, 103, 103);
+	background: rgb(147,147,147);
+	background: -moz-linear-gradient(top, rgba(147,147,147,1) 0%, rgba(238,238,238,1) 95%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(147,147,147,1)), color-stop(95%,rgba(238,238,238,1)));
+	background: -webkit-linear-gradient(top, rgba(147,147,147,1) 0%,rgba(238,238,238,1) 95%);
+	background: -o-linear-gradient(top, rgba(147,147,147,1) 0%,rgba(238,238,238,1) 95%);
+	background: -ms-linear-gradient(top, rgba(147,147,147,1) 0%,rgba(238,238,238,1) 95%);
+	background: linear-gradient(to bottom, rgba(147,147,147,1) 0%,rgba(238,238,238,1) 95%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#939393', endColorstr='#eeeeee',GradientType=0 );
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
+	margin: 31px;
+	margin-top: 67px;
+	padding-top: 8;
+	font-size: 22;
+	color:rgb(107, 102, 102);;
+	z-index:10;
+	position:relative;
+}
+
+.button-bar {
+	width:250px;
+	height:10px;
+	background-color: rgba(160, 159, 157, 0.41);
+	position: absolute;
+	display:block;
+	z-index:1;
+	top:85;
+	left:39;
+}
+
+.other hr {
+	margin-bottom:20px;
+}
+
+.steps {
+	width: 69px;
+	height: 60px;
+	display: inline-block;
+	font-size: 11px;
+	margin-left: 13;
+	text-align: center;
+	margin-top: -21;
+	color: rgb(109, 105, 105);
+	padding: 0 10;
+}
+
+.steps div:last-child {
+	width: 69px;
+	height: 60px;
+	display: inline-block;
+	font-size: 11px;
+	margin-left: 15;
+	text-align: center;
+	margin-top: -21;
+	color: rgb(109, 105, 105);
+	padding: 0 10;
 }
 
 /*FOOTER STARTS HERE*/
@@ -365,7 +474,7 @@ tr {
 	margin-right: 15px;
 	vertical-align: middle;
 	box-shadow: inset 0px 3px 4px -3px rgb(255, 255, 255);
-	border: 1px solid rgb(49, 47, 47);
+	border:1px solid rgb(63, 63, 63);
 	color:white;
 }
 
@@ -415,6 +524,7 @@ ul img {
 	margin-right: 11;
 }
 
+
 .submit {
 	height: 38px;
 	width: 38px;
@@ -444,6 +554,7 @@ ul img {
 	margin-left: 47;
 	font-size: 19;
 	font-weight: 800;
+	box-shadow: 1px 8px 12px -6px rgb(53, 51, 51);
 }
 
 .info h3 {
