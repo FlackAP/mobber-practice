@@ -173,17 +173,23 @@ a:hover {
 }
 
 .Event { 
-   position: absolute; 
-   top: -10px; 
-   left: 0; 
-   width: 96.8%;
-   color: white; 
-   letter-spacing: -1px;  
-   background: rgb(0, 0, 0); /* fallback color */
-   background: rgba(0, 0, 0, 0.7);
-   padding: 10px; 
-   display:inline-block;
+ 	position: absolute;
+	top: -16px;
+	left: 0;
+	width: 598;
+	color: white;
+	letter-spacing: -1px;
+	background: rgb(0, 0, 0);
+	background: rgba(0, 0, 0, 0.55);
+	padding: 11px;
+	display: inline-block;
+
   }
+
+ .main-image  img{
+ 	height:400;
+ 	width:620;
+ }
 
 .clock {
 	text-align: right;
