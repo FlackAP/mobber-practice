@@ -29,6 +29,11 @@ header div {
 	vertical-align:top;
 }
 
+a {
+	text-decoration:none;
+}
+
+
 
 .logo {
 	float:left;
@@ -270,10 +275,16 @@ header div {
 	color: rgb(124, 116, 116);
 }
 
-.share {
-	height: 19px;
+.share1 {
+	height: 18px;
 	width: 47px;
-	margin: 3px 5px;
+	margin: 2px 5px;
+}
+
+.share2 {
+	height: 20px;
+	width: 45px;
+	margin: 3px -4px;
 }
 
 /*OTHER STARTS HERE*/
